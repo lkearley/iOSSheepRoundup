@@ -14,6 +14,7 @@
 		A675A4A21F56752F0055095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A675A4A11F56752F0055095F /* Assets.xcassets */; };
 		A675A4A51F56752F0055095F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A675A4A31F56752F0055095F /* LaunchScreen.storyboard */; };
 		A675A4B01F5675300055095F /* SheepEscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675A4AF1F5675300055095F /* SheepEscapeTests.swift */; };
+		A675A4BB1F5E784E0055095F /* GamePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675A4BA1F5E784E0055095F /* GamePlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A675A4AB1F5675300055095F /* SheepEscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheepEscapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A675A4AF1F5675300055095F /* SheepEscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepEscapeTests.swift; sourceTree = "<group>"; };
 		A675A4B11F5675300055095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A675A4BA1F5E784E0055095F /* GamePlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				A675A4971F56752F0055095F /* AppDelegate.swift */,
 				A675A4991F56752F0055095F /* ViewController.swift */,
 				A675A49B1F56752F0055095F /* Main.storyboard */,
+				A675A4BA1F5E784E0055095F /* GamePlayViewController.swift */,
 				A675A4A11F56752F0055095F /* Assets.xcassets */,
 				A675A4A31F56752F0055095F /* LaunchScreen.storyboard */,
 				A675A4A61F56752F0055095F /* Info.plist */,
@@ -206,6 +209,7 @@
 			files = (
 				A675A49A1F56752F0055095F /* ViewController.swift in Sources */,
 				A675A4981F56752F0055095F /* AppDelegate.swift in Sources */,
+				A675A4BB1F5E784E0055095F /* GamePlayViewController.swift in Sources */,
 				A675A4A01F56752F0055095F /* SheepEscape.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +422,7 @@
 				A675A4B61F5675300055095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A675A4B71F5675300055095F /* Build configuration list for PBXNativeTarget "SheepEscapeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				A675A4B91F5675300055095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
